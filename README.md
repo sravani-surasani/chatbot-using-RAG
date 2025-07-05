@@ -1,4 +1,3 @@
-# chatbot-using-RAG
 
 # Multi-Agent RAG System with Model Context Protocol (MCP)
 
