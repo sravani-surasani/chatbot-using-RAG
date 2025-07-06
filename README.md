@@ -58,7 +58,7 @@ streamlit run app.py
 4. **Debug Info (Optional):**  
    Enable "Show Debug Info" in the sidebar to view recent agent message traffic.
 
-## 🧩 Architecture Overview
+##  Architecture Overview
 
 - **IngestionAgent:** Parses and preprocesses uploaded documents, chunks text.
 - **RetrievalAgent:** Embeds chunks, builds vector store (FAISS), retrieves relevant context.
@@ -66,7 +66,7 @@ streamlit run app.py
 - **CoordinatorAgent:** Orchestrates the workflow and maintains conversation state.
 - **MCP Message Bus:** In-memory message passing for all agent communication.
 
-## 📝 Example MCP Message
+##  Example MCP Message
 
 ```json
 {
@@ -81,7 +81,7 @@ streamlit run app.py
 }
 ```
 
-## ⚠️ Notes
+##  Notes
 
 - **OpenAI API Key** is required for LLM-based answers. If not provided, a fallback response will be generated.
 - **Temporary Files:** Uploaded files are stored temporarily and cleaned up after processing.
