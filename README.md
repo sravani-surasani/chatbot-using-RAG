@@ -25,7 +25,7 @@ pip install -r requirements.txt
 - streamlit
 - pandas, numpy
 - sentence-transformers
-- faiss-cpu
+- faiss-cpu,Chromadb
 - openai
 - PyPDF2, python-docx, python-pptx
 
