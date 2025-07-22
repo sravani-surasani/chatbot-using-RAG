@@ -86,3 +86,21 @@ streamlit run app.py
 - **OpenAI API Key** is required for LLM-based answers. If not provided, a fallback response will be generated.
 - **Temporary Files:** Uploaded files are stored temporarily and cleaned up after processing.
 - **Performance:** For large documents or many files, initial ingestion and embedding may take a few seconds.
+
+## Challenges what i faced during project are :
+
+1) **Managing Multiple Agents:**
+   It was challenging to coordinate different agents (Ingestion, Retrieval, LLM) and ensure they communicated properly using a structured protocol (MCP).
+   
+2) **Parsing Different File Types:**
+   Handling and extracting text from various document formats like PDF, DOCX, PPTX, and CSV required different tools and careful error handling.
+
+3) **Building Accurate Semantic Search:**
+   Breaking documents into meaningful chunks and retrieving the most relevant ones using embeddings and vector databases like FAISS or ChromaDB was complex.
+
+4) **Designing Good LLM Prompts:**
+   Crafting prompts that fit within token limits while still providing clear and context-rich input to the language model took several iterations.
+
+5) **Making the UI Interactive and Smooth:**
+   Maintaining chat history, showing real-time updates, and handling API key input in the Streamlit UI was tricky but essential for good user experience.
+
